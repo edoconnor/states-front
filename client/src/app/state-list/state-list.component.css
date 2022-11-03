@@ -1,0 +1,40 @@
+h3 {
+  color: #1e272e;
+}
+h3:hover {
+  color: #485460;
+}
+h4 {
+  font-weight: 200;
+}
+img {
+  margin-top: 1rem;
+}
+.card {
+  height: 35vh;
+}
+.state {
+  margin-top: 1rem;
+}
+.capital {
+  margin-top: 1 rem;
+}
+.state:hover + .hide {
+  display: block;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+.hide {
+  display: none;
+}
+
+h3 {
+  cursor: pointer;
+}
+.example-button {
+  margin-top: 16px;
+}
+
+.example-tooltip-red {
+  background: #b71c1c;
+}
